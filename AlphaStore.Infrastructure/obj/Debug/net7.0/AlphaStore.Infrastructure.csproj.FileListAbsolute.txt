@@ -1,0 +1,17 @@
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/bin/Debug/net7.0/AlphaStore.Infrastructure.deps.json
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/bin/Debug/net7.0/AlphaStore.Infrastructure.runtimeconfig.json
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/bin/Debug/net7.0/AlphaStore.Infrastructure.dll
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/bin/Debug/net7.0/AlphaStore.Infrastructure.pdb
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/bin/Debug/net7.0/AlphaStore.Application.dll
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/bin/Debug/net7.0/AlphaStore.Application.pdb
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.csproj.AssemblyReference.cache
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.AssemblyInfoInputs.cache
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.AssemblyInfo.cs
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.csproj.CopyComplete
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.dll
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/refint/AlphaStore.Infrastructure.dll
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.pdb
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/AlphaStore.Infrastructure.genruntimeconfig.cache
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Infrastructure/obj/Debug/net7.0/ref/AlphaStore.Infrastructure.dll

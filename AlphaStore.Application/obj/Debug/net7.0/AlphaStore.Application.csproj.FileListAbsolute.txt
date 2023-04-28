@@ -1,0 +1,12 @@
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/bin/Debug/net7.0/AlphaStore.Application.deps.json
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/bin/Debug/net7.0/AlphaStore.Application.dll
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/bin/Debug/net7.0/AlphaStore.Application.pdb
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/AlphaStore.Application.csproj.AssemblyReference.cache
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/AlphaStore.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/AlphaStore.Application.AssemblyInfoInputs.cache
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/AlphaStore.Application.AssemblyInfo.cs
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/AlphaStore.Application.csproj.CoreCompileInputs.cache
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/AlphaStore.Application.dll
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/refint/AlphaStore.Application.dll
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/AlphaStore.Application.pdb
+/Users/chidiebubesamuel/Projects/AlphaStore/AlphaStore.Application/obj/Debug/net7.0/ref/AlphaStore.Application.dll

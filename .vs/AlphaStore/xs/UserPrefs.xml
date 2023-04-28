@@ -1,0 +1,6 @@
+﻿<Properties StartupConfiguration="{4E8F2A85-7245-410B-80E2-C1FB52846005}|https">
+  <MonoDevelop.Ide.ItemProperties.AlphaStore.Application FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.AlphaStore.Infrastructure FirstBuild="True" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AlphaStore.Web PreferredExecutionTarget="/Applications/Safari.app" FirstBuild="True" />
+</Properties>
