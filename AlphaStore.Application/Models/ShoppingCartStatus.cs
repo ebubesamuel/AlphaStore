@@ -1,11 +1,10 @@
-﻿using System;
-namespace AlphaStore.Application.Models
+﻿namespace AlphaStore.Application.Models
 {
-	public class ShoppingCartStatus
-	{
-		public ShoppingCartStatus()
-		{
-		}
-	}
+    public enum ShoppingCartStatus
+    {
+        Pending = 0,
+        Paid = 1,
+        Completed = 2,
+        Canceled = 999
+    }
 }
-

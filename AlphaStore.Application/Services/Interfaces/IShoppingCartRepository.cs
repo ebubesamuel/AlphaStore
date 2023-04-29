@@ -1,11 +1,11 @@
-﻿using System;
+﻿using System.Threading.Tasks;
+using AlphaStore.Application.Models;
+using AlphaStore.Application.Services.Interfaces;
+
 namespace AlphaStore.Application.Services.Interfaces
 {
-	public class IShoppingCartRepository
-	{
-		public IShoppingCartRepository()
-		{
-		}
-	}
+    public interface IShoppingCartRepository : IRepository<ShoppingCart>
+    {
+        Task<ShoppingCart> GetPending();
+    }
 }
-

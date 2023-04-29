@@ -1,11 +1,14 @@
-﻿using System;
+﻿using System.Threading.Tasks;
+using AlphaStore.Application.Models;
+
 namespace AlphaStore.Application.Services.Interfaces
 {
-	public class ICategoryRepository
-	{
-		public ICategoryRepository()
-		{
-		}
-	}
+    public interface ICategoryRepository : IRepository<Category>
+    {
+        Task<bool> IsCategoryUniqueAsync(
+            long? categoryId,
+            string name);
+    }
 }
+
 

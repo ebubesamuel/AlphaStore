@@ -1,11 +1,9 @@
-﻿using System;
-namespace AlphaStore.Application.Models
+﻿namespace AlphaStore.Application.Models;
+
+public class ErrorViewModel
 {
-	public class ErrorViewModel
-	{
-		public ErrorViewModel()
-		{
-		}
-	}
+    public string? RequestId { get; set; }
+
+    public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
 }
 

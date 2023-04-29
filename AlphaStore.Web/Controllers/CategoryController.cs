@@ -1,32 +1,58 @@
-﻿using System.Diagnostics;
+﻿using AlphaStore.Application.Services.DTO;
+using AlphaStore.Application.Services.Interfaces.Services;
 using Microsoft.AspNetCore.Mvc;
-using AlphaStore.Web.Models;
+using System.Threading.Tasks;
 
-namespace AlphaStore.Web.Controllers;
-
-public class HomeController : Controller
+namespace AlphaStore.Web.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CategoryController : Controller
     {
-        _logger = logger;
-    }
+        private readonly ICategoryService _categoryService;
 
-    public IActionResult Index()
-    {
-        return View();
-    }
+        public CategoryController(
+            ICategoryService categoryService)
+        {
+            _categoryService = categoryService;
+        }
 
-    public IActionResult Privacy()
-    {
-        return View();
-    }
+        [HttpPost("create")]
+        public async Task<IActionResult> CreateCategoryAsync(
+            CreateUpdateCategoryDTO createCategory)
+        {
+            var productId = await _categoryService.CreateCategoryAsync(createCategory);
+            return Ok(productId);
+        }
 
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        [HttpDelete("delete/{categoryId}")]
+        public async Task<IActionResult> DeleteCategoryAsync(
+            long? categoryId)
+        {
+            await _categoryService.DeleteCategoryAsync(categoryId);
+            return Ok(categoryId);
+        }
+
+        [HttpPatch("update/{categoryId}")]
+        public async Task<IActionResult> UpdateProductAsync(
+            long? categoryId,
+            CreateUpdateCategoryDTO updateCategory)
+        {
+            await _categoryService.UpdateCategoryAsync(
+                categoryId,
+                updateCategory);
+
+            return Ok(categoryId);
+        }
+
+        [HttpGet("list")]
+        public async Task<IActionResult> GetCategoryListAsync()
+        {
+            var categories = await _categoryService.GetCategoryListAsync();
+
+            return Ok(categories);
+        }
     }
 }
+
 

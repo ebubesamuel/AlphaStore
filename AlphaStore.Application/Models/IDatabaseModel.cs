@@ -1,11 +1,11 @@
 ﻿using System;
+
 namespace AlphaStore.Application.Models
 {
-	public class IDatabaseModel
-	{
-		public IDatabaseModel()
-		{
-		}
-	}
+    public interface IDatabaseModel
+    {
+        long? Id { get; }
+    }
 }
+
 
